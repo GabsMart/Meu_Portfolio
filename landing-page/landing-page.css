@@ -1,0 +1,161 @@
+* {
+    font-family: Roboto;
+}
+
+.primeiro {
+    height: 100vh;
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
+    height: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header uo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.primeiro .conteudo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    Margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.primeiro .conteudo .esquerda {
+    width: 50%;
+}
+
+.primeiro .conteudo .esquerda h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.primeiro .conteudo .esquerda p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.primeiro .conteudo .esquerda button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+.primeiro .conteudo .direita {
+    background-color: wheat;
+    color: white;
+    width: 50%;
+    height: 300px;
+}
+
+.segundo {
+    height: 50vh;
+}
+
+.segundo h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.segundo .quadros {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 50px;
+}
+
+.um,
+.dois,
+.tres,
+.quatro {
+    margin-top: 20px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    height: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.terceiro {
+    height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.terceiro quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quarto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.azul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    width: 80%;
+    gap: 20px;
+    padding: 20px;
+    background-color: #3882f6;
+}
+
+.azul .esquerda h3 {
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.azul .esquerda p {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    height: 10vh;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
